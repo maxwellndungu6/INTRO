@@ -1,0 +1,39 @@
+body{
+  margin: 0;    
+  background-color:lightblue;
+  background-image: url(max.webp);
+  background-attachment: fixed;
+  height: 100rem
+
+}
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+ 
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+
+  color: orange
+}
+.container{
+  background-color: rgba(137, 43, 226, 0.534);border-radius: 2rem;
+  
+}
+
+.container2{
+  background-color: rgba(0, 0, 255, 0.418);
+  box-shadow: black 0px 0px 10px;
+  
+}
+.container3{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+  background-color: rgba(0, 255, 0, 0.418);
+}
+
+  
