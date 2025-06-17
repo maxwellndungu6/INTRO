@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grocery.ke</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url(papy.webp);
+      background-size: cover;
+      color: #fff;
+    }
+
+    header {
+      background: rgba(0, 100, 0, 0.8);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 3px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      padding: 1rem;
+      margin: 0 1rem;
+      font-size: 1.2rem;
+    }
+
+    nav a:hover {
+      background-color: #2e8b57;
+      border-radius: 5px;
+    }
+
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+    }
+
+    .text-section {
+      width: 50%;
+    }
+
+    .text-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .signup-section {
+      width: 45%;
+      background:transparent
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1px solid  #ccc;
+    }
+
+    .form-group button {
+      padding: 1rem;
+      background-color: #2e8b57;
+      color: blue;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      width: 100%;
+    }
+
+    .form-group button:hover {
+      background-color: #006400;
+    }
+
+    .social-media {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .social-media a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 2rem;
+    }
+
+    .social-media a:hover {
+      color: #ffd700;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Grocery.ke 🥬</h1>
+</header>
+
+<nav>
+  <a  href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a class="active" href="#product.html">Product</a>
+</nav>
+
+<div class="main-content">
+  <div class="text-section">
+    <h2>Welcome to Grocery.ke</h2>
+    <p>At Grocery.ke, we offer fresh and locally grown vegetables delivered directly to your doorstep. We believe in sustainability and supporting local farmers. Shop for the best produce in town and make healthy eating a part of your daily routine.</p>
+  </div>
+  
+  <div class="signup-section">
+    <h3>Create an Account</h3>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="Full Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Email" required />
+      </div>
+      <div class="form-group">
+        <input type="password" placeholder="Password" required />
+      </div>
+      <div class="form-group">
+        <button type="submit">Sign Up</button>
+      </div>
+    </form>
+    <h3>Already have an account? <a href="#login" style="color: #2e8b57;">Login here</a></h3>
+  </div>
+</div>
+
+<div class="social-media">
+  <a href="https://facebook.com" target="_blank">📘</a>
+  <a href="https://twitter.com" target="_blank">🐦</a>
+  <a href="https://instagram.com" target="_blank">📸</a>
+</div>
+
+<footer>
+  <p>&copy; 2025 Grocery.ke. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
