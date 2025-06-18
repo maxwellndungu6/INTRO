@@ -128,6 +128,45 @@ li a:hover {
       display: inline-block;
       
     }
+    .container2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 30px;
+      background-color: transparent;
+    }
+
+    .container2 > div {
+      background: rgba(255,255,255,0.7);
+      border-radius: 15px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+      flex: 1 1 220px;
+      max-width: 250px;
+    }
+
+    .container2 > div:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    }
+
+    .container2 img {
+      border-radius: 50%;
+      border: 4px solid orange;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      transition: border-color 0.2s;
+    }
+
+    .container2 > div:hover img {
+      border-color: darkorange;
+    }
     
   
 

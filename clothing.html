@@ -26,25 +26,31 @@
       background: #fff;
     }
     .product-card {
-      background: #fafafa;
+      background: brown;
+
+      
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.07);
       width: 250px;
       text-align: center;
       padding: 20px;
       transition: box-shadow 0.2s;
+      margin: 10px;
+
     }
     .product-card:hover {
       box-shadow: 0 4px 16px rgba(0,0,0,0.15);
     }
     .product-card img {
+
+      
       width: 100%;
       height: 180px;
       object-fit: cover;
       border-radius: 6px;
     }
     .product-card h3 { margin: 15px 0 10px; }
-    .product-card p { color: #666; }
+    .product-card p { color: white; }
     .product-card .price { color: #222; font-weight: bold; margin: 10px 0; }
     .product-card button {
       background: #222;
@@ -54,6 +60,7 @@
       border-radius: 4px;
       cursor: pointer;
       font-size: 1em;
+      
     }
     footer {
       background: #222;
@@ -65,13 +72,25 @@
     @media (max-width: 800px) {
       .products { flex-direction: column; align-items: center; }
     }
+    .title {
+      background: url(online clothes/naked wolfe 1.jpg) center/cover no-repeat;
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+      
+   
   </style>
 </head>
 <body>
-  <header>
-    <h1>Urban Threads</h1>
+  <div class="title">
+    <header>
+    <h1>MAXXIE'S</h1>
     <p>Your Style, Your Way</p>
   </header>
+
+  </div>
+  
   <nav>
     <a href="home .html">Home</a>
     <a href="#">Men</a>
@@ -209,3 +228,35 @@
         </div>
 
       </section></div></section>
+      <section style="background:#fff; padding:40px 10px; margin:40px 0;">
+        <h2 style="text-align:center; color:#222;">Style of the Week</h2>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:30px; margin-top:20px;">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Style of the Week" style="width:220px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+          <div style="max-width:400px;">
+            <h3>Urban Explorer Look</h3>
+            <p>Get inspired by our curated outfit of the week! This look combines comfort and street style, perfect for city adventures. Mix and match with your favorite accessories for a unique touch.</p>
+            <button style="background:#222; color:#fff; border:none; padding:10px 25px; border-radius:4px; cursor:pointer; font-size:1em;">Shop the Look</button>
+          </div>
+        </div>
+      </section>
+      <section style="background:#fff; padding:40px 10px; margin:40px 0;">
+        <h2 style="text-align:center; color:#222;">Featured Gallery</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Gallery 1" style="width:180px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+          <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=400&q=80" alt="Gallery 2" style="width:180px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+          <img src="online clothes/2Pc Unisex Tracksuits .jpg" alt="Gallery 3" style="width:180px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+          <img src="watches/orus watch 1.jpg" alt="Gallery 4" style="width:180px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+        </div>
+      </section>
+      <footer>
+        <p>&copy; 2023 Urban Threads. All rights reserved.</p>
+        <p>Follow us on 
+          <a href="#" style="color:#fff; text-decoration:underline;">Instagram</a>, 
+          <a href="#" style="color:#fff; text-decoration:underline;">Facebook</a>, 
+          <a href="#" style="color:#fff; text-decoration:underline;">Twitter</a>
+        </p>
+        <style>
+          body {
+            background: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80') center center/cover no-repeat fixed, #f7f7f7;
+          }
+        </style>
