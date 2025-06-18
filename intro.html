@@ -49,12 +49,19 @@ li a:hover {
     padding: 2px;
     background-color: rgba(255, 255, 255, 0.463);
     text-align: center;
+    box-shadow: black 0px 0px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
   }
   .max {
     padding: 2px;
     background-color: rgba(255, 255, 255, 0.463);
     text-align: center;
     margin-top: 20px;
+    box-shadow: black 0px 0px 10px;
+    border-radius: 10px;
+
 
   }
   .container2{
@@ -80,6 +87,48 @@ li a:hover {
     border-radius: 10px;
     background-color: transparent
   }
+
+   nav {
+      display: flex;
+      justify-content: center;
+      background-color: transparent;
+      padding: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      padding: 1rem;
+      margin: 0 1rem;
+      font-size: 1.2rem;
+    }
+    nav a:hover {
+      background-color: orange;
+      border-radius: 5px;
+    }
+    .title {
+      text-align: center;
+      padding: 20px;
+      background-color: transparent;
+      color: white;
+    } 
+    .title2 {
+      text-align: center;
+      padding: 20px;
+      background-color: transparent;
+      color: white;
+    }
+    .features {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.514);
+      color: black;
+      margin-top: 20px;
+      box-shadow: black 0px 0px 10px;
+      border-radius: 10px;
+      display: inline-block;
+      
+    }
+    
   
 
 
@@ -91,32 +140,22 @@ li a:hover {
   <body class="intro">
     
 
-  
-      <header>
+   <DIv class="title">
+    <header>
       <h1>GROCERY.KE </h1>
     </header>
 
+   </DIv>
 
-     <div class="container">
-       <navbar>
-      
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="products.html">Products</a></li>
-        <button><li style="float:right;"><a class="active1" href="#sign in">sign in</a></li></button>
-       <button> <li style="float: right;"><a class="active" href="#sign up">sign up</a></li></button>
-        
-        
-       
-</ul>
+       <nav>
+  <a  href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a class="active" href="#product.html">Product</a>
+</nav>
 
-    
-       </navbar>
 
-          
-          </div>
+     
           
         
 
@@ -141,7 +180,11 @@ li a:hover {
       </section>
       <section>
         <div class="top">
-          <h2>  SHOP FRESH PRODUCE</h2>
+          <div class="title2">
+            <h2>  SHOP FRESH PRODUCE</h2>
+
+          </div>
+          
         <body>
           <div class="container2">
             <div class ="item">
@@ -279,16 +322,45 @@ li a:hover {
        
        </div>
 
-       <h3> FEATURES </h3>
-        <ul>
-          <li>Feature 1: Overview of the main topics</li>
-          <li>Feature 2: Easy navigation</li>
-          <li>Feature 3: Responsive design</li>
-        </ul>
+     <div class="features">
+       <h2>Features</h2>
+       <p>This site offers a range of features to enhance your grocery shopping experience:</p>
+       <ul>
+         <li>Easy navigation through various grocery categories</li>
+         <li>Search functionality to quickly find specific items</li>
+         <li>Responsive design for seamless use on mobile and desktop devices</li>
+         <li>Secure checkout process for safe transactions</li>
+         <li>Customer support for any inquiries or issues</li>
+       </ul>
 
+     </div>
+       
+       <div
+       ><h2>Contact</h2>
+      <p>If you have any questions or need assistance, please contact us at:</p>
+      <p>Email:kegrocery@gmail.com</p>
+      <p>Phone: +254 785082023  </p>
+      <p>Follow us on social media for updates and promotions!</p>
+      <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" target ="_blank">Instagram</a>
+
+       </div>
+
+      <h2>Contact</h2>
+      <p>If you have any questions or need assistance, please contact us at:</p>
+      <p>Email:kegrocery@gmail.com</p>
+      <p>Phone: +254 785082023  </p>
+      <p>Follow us on social media for updates and promotions!</p>
+      <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      </div>
         
     </main>
     <footer>
-      <p>&copy; 2023 Your Company Name</p>
+      <p>&copy;  2025 Grocery.ke. All Rights Reserved.</p>
     </footer>
 </html>
