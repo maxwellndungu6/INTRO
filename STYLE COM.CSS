@@ -1,3 +1,4 @@
+
 body{
   margin: 0;    
   background-color:lightblue;
@@ -18,3 +19,21 @@ p{
 
   color: orange
 }
+.max{
+  background-color: red;border-radius: 2rem;
+  
+}
+
+.container2 {
+  background-color: rgb(0, 0, 255);
+  box-shadow: black 0px 0px 10px;
+  
+}
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+  background-color: rgba(0, 255, 0, 0.418);
+}
+
